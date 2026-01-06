@@ -1,4 +1,3 @@
-# atack11.github.io
 ---
 title: Projects
 layout: default

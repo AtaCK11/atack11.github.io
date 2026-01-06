@@ -1,4 +1,3 @@
-# atack11.github.io
 ---
 title: Projects
 layout: default
@@ -6,6 +5,7 @@ layout: default
 
 # Electronic Engineering Projects
 
+projects/index
 Welcome to my project archive.
 
 ## Categories

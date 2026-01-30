@@ -1,16 +1,13 @@
 ---
-layout: post
-title: "433 MHz Antenna Experiments"
-date: 2025-01-12
-tags: [rf, antenna]
+layout: default
+title: RF Projects
 ---
 
+# RF Projects
 
-# RF
+{% assign rf_pages = site.pages | where_exp: "p", "p.path contains 'projects/rf/' and p.layout == 'post'" | sort: "date" | reverse %}
 
-{% for page in site.pages %}
-  {% if page.path contains "projects/rf/" and page.title %}
-- [{{ page.title }}]({{ page.url }})  
-  <small>{{ page.date | date: "%Y-%m-%d" }}</small>
-  {% endif %}
+{% for post in rf_pages %}
+- **[{{ post.title }}]({{ post.url }})**  
+  <small>{{ post.date | date: "%Y-%m-%d" }}</small>
 {% endfor %}

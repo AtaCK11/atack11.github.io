@@ -5,16 +5,13 @@ date: 2025-01-12
 tags: [rf, antenna]
 ---
 
+I wanted to explore how far I could push a simple 433 MHz antenna design.
 
-# RF Projects
+## Setup
+Details here…
 
-<div class="project-grid">
+## Measurements
+Details here…
 
-<div class="project-card">
-<h3>RF</h3>
-<p>Status: In progress</p>
-<p>Discrete FM transmitter design.</p>
-<a href="/projects/rf/433mhz-antenna/">View project →</a>
-</div>
-
-</div>
+## Results
+Details here…

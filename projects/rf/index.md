@@ -5,7 +5,7 @@ title: RF Projects
 
 <section class="projects-hero">
   <h2>RF</h2>
-  <p>Experiments, measurements, and radio weirdness.</p>
+  <p>Experiments, black magic, and radio weirdness.</p>
 </section>
 
 <section class="projects-grid">

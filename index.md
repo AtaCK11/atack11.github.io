@@ -10,3 +10,4 @@ layout: default
 **This page contains my projects like blog post type thing.**
 
 - [Projects](projects/)
+S

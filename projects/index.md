@@ -10,5 +10,6 @@ Welcome to my project archive.
 
 ## Categories
 - [RF Projects](rf/)
-- [Analog Electronics](analog/)
+- [PCB Design](design/)
+- [Electronic Projects](electronic/)
 - [Embedded Systems](embedded/)

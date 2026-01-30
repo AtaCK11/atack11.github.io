@@ -5,9 +5,8 @@ layout: default
 
 # Electronic Engineering Projects
 
-Welcome to my project archive.
+**Welcome to my personal project archive.**
 
-## Categories
-- [RF Projects](rf/)
-- [Analog Electronics](analog/)
-- [Embedded Systems](embedded/)
+**This page contains my projects like blog post type thing.**
+
+- [Projects](projects/)

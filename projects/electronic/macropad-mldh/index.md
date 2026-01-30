@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Experimental Macropad Build"
-date: 2025-010-23
+date: 2025-10-23
 tags: [ARM-M33, keyboard, RP2350]
 ---
 

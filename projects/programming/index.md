@@ -12,8 +12,8 @@ title: RF Projects
 
 {% assign pages_sorted = site.pages | sort: "date" | reverse %}
 {% for post in pages_sorted %}
-  {% if post.layout == "post" and post.path contains "projects/rf/" %}
-  <a class="project-card rf" data-label="{{ post.date | date: '%Y-%m-%d' }}" href="{{ post.url }}">
+  {% if post.layout == "post" and post.path contains "projects/programming/" %}
+  <a class="project-card programming" data-label="{{ post.date | date: '%Y-%m-%d' }}" href="{{ post.url }}">
     <h3>{{ post.title }}</h3>
     <p>
       {% if post.tags %}

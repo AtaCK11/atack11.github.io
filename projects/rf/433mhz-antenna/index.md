@@ -1,7 +1,10 @@
 ---
-title: RF Projects
-layout: default
+layout: post
+title: "433 MHz Antenna Experiments"
+date: 2025-01-12
+tags: [rf, antenna]
 ---
+
 
 # RF Projects
 

@@ -323,3 +323,31 @@ body::after {
   transform: scale(1.04);
   box-shadow: 0 0 24px rgba(120,255,190,0.35);
 }
+
+/* ===== COMPONENT LIST STYLING ===== */
+.post-content ul li strong {
+  color: #ffd66b; /* hardware amber */
+  text-shadow: 0 0 6px rgba(255, 214, 107, 0.35);
+}
+
+/* ===== INLINE COMMANDS ===== */
+.post-content code {
+  color: #6bb6ff; /* command blue */
+  background: rgba(107, 182, 255, 0.08);
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+
+/* ===== COMMAND BLOCKS (if you add any later) ===== */
+.post-content pre {
+  background: rgba(0, 0, 0, 0.55);
+  border: 1px solid rgba(107, 182, 255, 0.25);
+  box-shadow: inset 0 0 12px rgba(107, 182, 255, 0.15);
+}
+
+.post-content pre code {
+  color: #9dcaff;
+  background: none;
+  padding: 0;
+}

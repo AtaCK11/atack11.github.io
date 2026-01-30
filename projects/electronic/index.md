@@ -5,7 +5,7 @@ layout: default
 
 # Design Projects
 
-<div class="project-grid">
+<div class="projects-grid">
 
 <div class="project-card">
 <h3>Macropad</h3>

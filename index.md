@@ -11,7 +11,7 @@ This site is a collection of things I’ve built, tested, and learned.
 
 ---
 
-<a href="/projects/" class="terminal-link">$ ./projects</a>
+<p><strong>Visit My Projects</strong></p><a href="/projects/" class="terminal-link">user@site:~$ ./projects</a>
 
 ---
 

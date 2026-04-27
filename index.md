@@ -11,7 +11,7 @@ This site is a collection of things I’ve built, tested, and learned.
 
 ---
 
-→ **[View Projects](/projects/)**
+<a href="/projects/" class="terminal-link">$ ./projects</a>
 
 ---
 

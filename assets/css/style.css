@@ -366,3 +366,9 @@ body::after {
   color: #111;
   background: #00ff9c;
 }
+
+.date {
+  font-family: monospace;
+  font-size: 0.85em;
+  color: var(--text-muted, #777);
+}

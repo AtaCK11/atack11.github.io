@@ -1,6 +1,6 @@
 ---
 layout: default
-title: RF Projects
+title: Design Projects
 ---
 
 <section class="projects-hero">

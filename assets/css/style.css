@@ -351,3 +351,18 @@ body::after {
   background: none;
   padding: 0;
 }
+
+/* ===== Landing ===== */
+.terminal-link {
+  font-family: monospace;
+  background: #111;
+  color: #00ff9c;
+  padding: 6px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.terminal-link:hover {
+  color: #111;
+  background: #00ff9c;
+}

@@ -19,7 +19,9 @@ This site is a collection of things I've built, tested, and learned.
 
 <div class="recent-posts">
 {%- assign all_posts = site.pages | where_exp: "p", "p.date != nil" -%}
-{%- assign all_posts = all_posts | where_exp: "p", "p.layout == 'post' or p.layout == 'blog-post'" -%}
+{%- assign posts_a = all_posts | where: "layout", "post" -%}
+{%- assign posts_b = all_posts | where: "layout", "blog-post" -%}
+{%- assign all_posts = posts_a | concat: posts_b -%}
 {%- assign all_posts = all_posts | sort: "date" | reverse -%}
 {%- for post in all_posts limit:5 -%}
   {%- assign parts = post.path | split: "/" -%}

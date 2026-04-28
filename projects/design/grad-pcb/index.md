@@ -9,8 +9,8 @@ The PCB for my graduation project. First ever PCB i have designed.
 
 <figure>
   <div class="image-gallery">
-    <a href="images/pcb_layout.jpg" target="_blank">
-      <img src="images/pcb_layout.jpg" alt="PCB Layout">
+    <a href="images/pcb_layout.png" target="_blank">
+      <img src="images/pcb_layout.png" alt="PCB Layout">
     </a>
   </div>
 

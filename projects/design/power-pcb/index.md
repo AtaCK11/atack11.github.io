@@ -9,11 +9,11 @@ This is a power pcb that i designed for my friends graduation project.
 
 <figure>
   <div class="image-gallery">
-    <a href="images/pcb_layout.jpg" target="_blank">
-      <img src="images/pcb_layout.jpg" alt="PCB Layout">
+    <a href="images/pcb_layout.png" target="_blank">
+      <img src="images/pcb_layout.png" alt="PCB Layout">
     </a>
-    <a href="images/sch.jpg" target="_blank">
-      <img src="images/sch.jpg" alt="Schematic">
+    <a href="images/sch.png" target="_blank">
+      <img src="images/sch.png" alt="Schematic">
     </a>
   </div>
 

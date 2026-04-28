@@ -10,7 +10,8 @@ title: RF Projects
 
 <section class="projects-grid">
 
-{% assign pages_sorted = site.pages | sort: "date" | reverse %}
+{% assign pages_with_date = site.pages | where_exp: "p", "p.date != nil" %}
+{% assign pages_sorted = pages_with_date | sort: "date" | reverse %}
 {% for post in pages_sorted %}
   {% if post.layout == "post" and post.path contains "projects/programming/" %}
   <a class="project-card programming" data-label="{{ post.date | date: '%Y-%m-%d' }}" href="{{ post.url }}">

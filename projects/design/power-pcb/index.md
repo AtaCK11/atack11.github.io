@@ -15,6 +15,12 @@ This is a power pcb that i designed for my friends graduation project.
     <a href="images/sch.png" target="_blank">
       <img src="images/sch.png" alt="Schematic">
     </a>
+    <a href="images/pcb_layout_2.png" target="_blank">
+      <img src="images/pcb_layout_2.png" alt="PCB Layout">
+    </a>
+    <a href="images/sch_2.png" target="_blank">
+      <img src="images/sch_2.png" alt="Schematic">
+    </a>
   </div>
 
   <figcaption>

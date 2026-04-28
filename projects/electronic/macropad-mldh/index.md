@@ -3,9 +3,6 @@ layout: post
 title: "Experimental Macropad Build"
 date: 2025-10-23
 tags: [ARM-M33, keyboard, RP2350]
-refs:
-  - path: projects/programming/index.md
-    label: "View Programming Projects"
 ---
 
 This project is an experimental macropad built to evaluate the **RP2350** microcontroller for a larger, more complex device.
@@ -20,6 +17,9 @@ The goal is to explore hardware capability, firmware workflow, early.
 
 The MLDH-Macropad is capable of saving the config file to its own flash, so we dont need a seperate app to hold the config for us.
 
+
+{% assign fw = site.pages | where: "path", "projects/embedded/macropad-mldh-firmware/index.md" | first %}
+{% if fw %}<a class="ref-btn" href="{{ fw.url }}">Firmware &rarr;</a>{% endif %}
 
 ## Command-Line Interface
 

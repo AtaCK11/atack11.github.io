@@ -398,3 +398,60 @@ body::after {
   border-color: #00ff9c;
   color: #00ff9c;
 }
+
+/* ===== Recent posts (landing page) ===== */
+.recent-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin: 0.75rem 0;
+}
+ 
+.recent-post-item {
+  display: grid;
+  grid-template-columns: 100px 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #1e1e1e;
+  border-radius: 4px;
+  text-decoration: none;
+  color: inherit;
+  background: #0a0a0a;
+  transition: border-color 0.15s, background 0.15s;
+}
+ 
+.recent-post-item:hover {
+  background: #111;
+  border-color: #333;
+}
+ 
+.recent-post-category {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-family: monospace;
+  padding: 2px 6px;
+  border-radius: 3px;
+  text-align: center;
+  background: #111;
+  border: 1px solid currentColor;
+}
+ 
+.recent-post-category.electronic  { color: #ffd66b; }
+.recent-post-category.embedded    { color: #ff7a7a; }
+.recent-post-category.programming { color: #6bb6ff; }
+.recent-post-category.design      { color: #b69cff; }
+.recent-post-category.rf          { color: #63e6be; }
+ 
+.recent-post-title {
+  font-size: 0.88em;
+  color: #c7ffd8;
+}
+ 
+.recent-post-date {
+  font-size: 0.75em;
+  color: #555;
+  font-family: monospace;
+  white-space: nowrap;
+}

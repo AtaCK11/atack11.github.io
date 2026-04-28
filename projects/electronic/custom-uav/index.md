@@ -66,7 +66,7 @@ Implemented & Planned features:
 {% assign pages_with_date = site.pages | where_exp: "p", "p.date != nil" %}
 {% assign pages_sorted = pages_with_date | sort: "date" | reverse %}
 {% for post in pages_sorted %}
-  {% if post.layout == "post" and post.path contains "projects/electronic/custom-uav/" %}
+  {% if post.layout == "blog-post" and post.path contains "projects/electronic/custom-uav/" %}
   <a class="project-card uav" data-label="{{ post.date | date: '%Y-%m-%d' }}" href="{{ post.url }}">
     <h3>{{ post.title }}</h3>
     <p>

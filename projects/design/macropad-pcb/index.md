@@ -18,16 +18,16 @@ It has ESD protection close to screws so its grounded instantly.
 
 <figure>
   <div class="image-gallery">
-    <a href="images/3d_pcb_model.jpg" target="_blank">
-      <img src="images/3d_pcb_model.jpg" alt="3D PCB Model">
+    <a href="images/3d_pcb_model.png" target="_blank">
+      <img src="images/3d_pcb_model.png" alt="3D PCB Model">
     </a>
 
-    <a href="images/pcb_layout.jpg" target="_blank">
-      <img src="images/pcb_layout.jpg" alt="PCB Layout">
+    <a href="images/pcb_layout.png" target="_blank">
+      <img src="images/pcb_layout.png" alt="PCB Layout">
     </a>
 
-    <a href="images/sch.jpg" target="_blank">
-      <img src="images/sch.jpg" alt="Schematic">
+    <a href="images/sch.png" target="_blank">
+      <img src="images/sch.png" alt="Schematic">
     </a>
   </div>
 

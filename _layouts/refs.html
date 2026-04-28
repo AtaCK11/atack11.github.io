@@ -1,0 +1,10 @@
+{% if page.refs %}
+<div class="post-refs">
+  {% for ref in page.refs %}
+    {% assign ref_page = site.pages | where: "path", ref.path | first %}
+    {% if ref_page %}
+    <a class="ref-btn" href="{{ ref_page.url }}">{{ ref.label | default: ref_page.title }} →</a>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}

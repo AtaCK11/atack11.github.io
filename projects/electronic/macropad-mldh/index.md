@@ -3,6 +3,9 @@ layout: post
 title: "Experimental Macropad Build"
 date: 2025-10-23
 tags: [ARM-M33, keyboard, RP2350]
+refs:
+  - path: projects/programming/index.md
+    label: "View Programming Projects"
 ---
 
 This project is an experimental macropad built to evaluate the **RP2350** microcontroller for a larger, more complex device.

@@ -18,7 +18,7 @@ The goal is to explore hardware capability, firmware workflow, early.
 The MLDH-Macropad is capable of saving the config file to its own flash, so we dont need a seperate app to hold the config for us.
 
 
-{% assign fw = site.pages | where: "path", "projects/embedded/macropad-mldh-firmware/index.md" | first %}
+{% assign fw = site.pages | where: "path", "projects/embedded/macropad-firmware/index.md" | first %}
 {% if fw %}<a class="ref-btn" href="{{ fw.url }}">Firmware &rarr;</a>{% endif %}
 
 ## Command-Line Interface

@@ -3,11 +3,11 @@ layout: home
 title: Home
 ---
 
-Hi, I'm **Attabit**.
+Hi, I'm **Atabit**.
 
 I work on embedded systems, electronics, and RF-related projects.
 
-This site is a collection of things I’ve built, tested, and learned.
+This site is a collection of things I've built, tested, and learned.
 
 ---
 
@@ -15,11 +15,28 @@ This site is a collection of things I’ve built, tested, and learned.
 
 ---
 
+### Recent
+
+<div class="recent-posts">
+{%- assign all_posts = site.pages | where_exp: "p", "p.date != nil" -%}
+{%- assign all_posts = all_posts | where_exp: "p", "p.layout == 'post' or p.layout == 'blog-post'" -%}
+{%- assign all_posts = all_posts | sort: "date" | reverse -%}
+{%- for post in all_posts limit:5 -%}
+  {%- assign parts = post.path | split: "/" -%}
+  {%- assign category = parts[1] -%}
+  <a class="recent-post-item" href="{{ post.url }}">
+    <span class="recent-post-category {{ category }}">{{ category }}</span>
+    <span class="recent-post-title">{{ post.title }}</span>
+    <span class="recent-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+  </a>
+{%- endfor -%}
+</div>
+
+---
+
 ### Areas of interest
 
 - Embedded systems
 - Circuit design
-- RF & antennas
+- RF &amp; antennas
 - Low-level programming
-
-<span class="date">2026-04-27</span>

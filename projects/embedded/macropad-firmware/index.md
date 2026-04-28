@@ -9,19 +9,16 @@ This project is an experimental firmware for my macropad built with **RPi Pico 2
 
 The firmware enables control for:
 
-- **128×32 display**
+- **128x32 display**
 - **9 keyboard switches**
 - **2 rotary encoders**
 - **Configuration light**
 
 It was a challenge to write this firmware as a whole after the PCB was fabricated. I have found that `RP2350-E9` was causing problems with my keyboard's button press code. I pulled it off by hard reseting the GPIO 2 times in a row. I have no idea why it works but it works!
 
-
-{% assign fw = site.pages | where: "path", "projects/electronic/macropad-mldh/index.md" | first %}
-{% if fw %}<a class="ref-btn" href="{{ fw.url }}">Check the whole project →</a>{% endif %}
-
-{% assign fw = site.pages | where: "path", "https://github.com/AtaCK11/macropad-MLDH" | first %}
-{% if fw %}<a class="ref-btn" href="{{ fw.url }}">Check the firmware →</a>{% endif %}
+{% assign hw = site.pages | where: "path", "projects/electronic/macropad-mldh/index.md" | first %}
+{% if hw %}<a class="ref-btn" href="{{ hw.url }}">Check the whole project &rarr;</a>{% endif %}
+<a class="ref-btn" href="https://github.com/AtaCK11/macropad-MLDH" target="_blank">Firmware on GitHub &rarr;</a>
 
 ## Command-Line Interface
 
@@ -55,5 +52,5 @@ Supported formats include:
 - `ctrl+c`
 - `win+shift+s`
 - `alt+f4`
-- `0xMM:0xKK` — modifier + key
-- `0xKK` — key only
+- `0xMM:0xKK` - modifier + key
+- `0xKK` - key only

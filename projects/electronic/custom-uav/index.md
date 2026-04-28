@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Custom Flight Controller Board"
-date: 2026-4-27
+date: 2026-04-27
 tags: [ARM-M33, FlightController, drone]
 ---
 

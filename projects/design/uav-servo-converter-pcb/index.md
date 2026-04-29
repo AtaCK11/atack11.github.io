@@ -9,7 +9,7 @@ Here is a designed power board for my work in progress drone, its a fixed wing d
 
 It contains **3 resistors (R6, R7, R8)** because my local electronics supplier doesnt have any 210k resistors in stock. Thats also why im using MP1584 as my IC.
 
-**R1 = 50.25 * (Vout - 0.8)** (formula for output voltage calculation, given in datasheet)
+`R1 = 50.25 * (Vout - 0.8)` R6, R7, R8 in my case. (formula for output voltage calculation, given in datasheet)
 
 I will be using **220k instead of 210k because 5.2V is better for servos over long cables** so they will still run at full performance after the voltage drop.
 
